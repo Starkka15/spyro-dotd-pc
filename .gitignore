@@ -1,0 +1,19 @@
+# Only the hand-written port is public. Game files, the disc image, image
+# dumps, generated code, builds, logs and captures never leave this machine.
+/*
+!/.gitignore
+!/CMakeLists.txt
+!/CMakePresets.json
+!/spyro_dotd_manifest.toml
+!/README.md
+!/LICENSE
+!/src/
+!/config/
+!/launcher/
+!/res/
+!/tools/
+# Generated from the game's code (baseline analyzer output) and scan reports.
+/config/baseline_init.cpp
+/config/find_funcs.txt
+/launcher/build/
+__pycache__/
