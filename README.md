@@ -5,6 +5,10 @@ with the [ReXGlue SDK](https://github.com/rexglue/rexglue-sdk): the game's
 PowerPC code is translated to C++ ahead of time and runs directly, with the
 SDK providing the Xbox 360 kernel, GPU (Direct3D 12 or Vulkan) and audio.
 
+> **About this port.** This port isn't mine to gatekeep. It's a basic starting
+> point to build on (features, fixes, polish), not a finished or maintained product. If
+> you feel up to it, feel free to continue the work; forks and pull requests are welcome.
+
 **This repository contains none of the game.** You need your own copy of The
 Legend of Spyro: Dawn of the Dragon for the Xbox 360 (USA/Europe disc).
 Setup copies the game's files from an Xbox 360 disc image (.iso, full or
